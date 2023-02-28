@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UIUC">
+      <UniqueIdentifier>{e8ac3943-d2d2-4bae-955a-8e84f35141c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIUC\CATCH">
+      <UniqueIdentifier>{27203e1e-aa6b-46d3-83ff-e3873c9fe7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIUC\MAKE">
+      <UniqueIdentifier>{f0099958-0648-4581-a30a-f767bbd49b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIUC\LOADPNG">
+      <UniqueIdentifier>{a59b19d5-8e2a-49c2-8443-60d7a48e26d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEST">
+      <UniqueIdentifier>{87cb74e0-a36c-4a42-96f4-f4c6faa4525a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImageTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\HSLAPixel.cpp">
+      <Filter>UIUC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\PNG.cpp">
+      <Filter>UIUC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\catch\catchmain.cpp">
+      <Filter>UIUC\CATCH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\lodepng\lodepng.cpp">
+      <Filter>UIUC\LOADPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\part1.cpp">
+      <Filter>TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\part2.cpp">
+      <Filter>TEST</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ImageTransform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\HSLAPixel.h">
+      <Filter>UIUC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\PNG.h">
+      <Filter>UIUC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\RGB_HSL.h">
+      <Filter>UIUC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\catch\catch.hpp">
+      <Filter>UIUC\CATCH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\lodepng\lodepng.h">
+      <Filter>UIUC\LOADPNG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\uiuc\make\uiuc.mk">
+      <Filter>UIUC\MAKE</Filter>
+    </None>
+  </ItemGroup>
+</Project>
